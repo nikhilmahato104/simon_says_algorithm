@@ -15,7 +15,7 @@ stbtn.addEventListener("click", function (event) {
     levelUp();
   }
 });
-
+//
 //step 3 function of levelUp when start level = 1
 let h2 = document.querySelector("h2");
 function levelUp() {
