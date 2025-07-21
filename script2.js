@@ -24,6 +24,7 @@ function levelUp() {
   h2.innerText = `level ${level}`;
 
   //flashing randdom button + calling step 4 when game started
+ //h2
   let randIdx = Math.floor(Math.random() * 3);
   let randColor = btns[randIdx];
   let randBtn = document.querySelector(`.${randColor}`);
